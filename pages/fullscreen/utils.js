@@ -23,6 +23,7 @@ module.exports = function (browser) {
     };
     this.topSearch = function () { 
       browser
+      .pause(3000)
       .assert.attributeContains('#rso > div:nth-child(2) > div > div:nth-child(1) > div > div > h3 > a', 'href', 'http://fullscreenmedia.co/about/');
     };
     this.gotoFullscreenGoogleLink = function () {
@@ -75,14 +76,6 @@ module.exports = function (browser) {
       .waitForElementVisible('body', 1000)
       .pause(1000);
     };
-    // this.creatorLogin = function () {
-    //   browser
-    //   .click('body > header > div > div.main-menu-actions > div > a')
-    //   .pause(3000)
-    //   .setValue('#new_user > div:nth-child(3)', 'ronchoqa@gmail.com')
-    //   // .setValue('input[type=password]', 'testtest')
-    //   // .click('#recaptcha-anchor > div.recaptcha-checkbox-checkmark');
-    // };
 
     return this;
   };

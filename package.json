@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node nightwatch -e chrome"
+    "test": "node nightwatch -e chrome --reporter html-reporter.js"
   },
   "author": "Ronak Chovatiya",
   "license": "ISC"
