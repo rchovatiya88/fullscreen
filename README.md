@@ -7,7 +7,7 @@
 - Node.js and Mac, 
 - For Windows, change chromedriver to Chromedriver.exe
 
-1. `Git Clone` https://github.com/rchovatiya88/fullscreen.git
+1. `Git Clone` git@github.com:rchovatiya88/fullscreen.git
 2. Cd into project -  `npm install`
 3. Run test - `npm test`
 
