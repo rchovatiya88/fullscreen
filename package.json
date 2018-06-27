@@ -1,0 +1,19 @@
+{
+  "name": "fullscreen",
+  "version": "1.0.0",
+  "description": "Fullscreen Automation Challenge",
+  "main": "nightwatch.js",
+  "dependencies": {
+    "eslint": "^4.13.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.11",
+    "nightwatch": "^0.9.19",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node nightwatch -e chrome"
+  },
+  "author": "Ronak Chovatiya",
+  "license": "ISC"
+}
